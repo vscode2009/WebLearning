@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/cricket">
+        <p>
+            <label for="username">Username: </label>
+            <input id= "username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter Passwored: </label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="number">Select a Number: </label>
+            <input type="number" placeholder="number" id="number" name="num">
+        </p>
+        <button type="button">Button</button>
+        <p>
+            <label for="color">Choose a color: </label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <button type="submit">Submit!</button>
+        <input type="submit" value="click">
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>
+            Search Google
+        </button>
+    </form>
+    <form action="/abcd">
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="xs">XS: </label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="s">S: </label>
+        <input type="radio" name="size" id="m" value="m">
+        <label for="m">M: </label>
+        <BUtton>sUBMIT</BUtton>
+
+        <p>
+            <label for="meat">Choose the meat: </label>
+            <select name="meat" id="meat">
+                <option value="Chicken">Chicken</option>
+                <option value="Lamb">Lamb</option>
+                <option value="Fish">Salmon</option>
+            </select>
+        </p>
+        <label for="jalebi">Number Of Jalebis</label>
+        <input type="range" min="0" max="100" name="Jeb_Count" step="5" id="jalebi" value="25">
+        <p>
+            <label for="Request">Send a request: </label>
+            <br>
+            <textarea name="RQS" id="Request" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+<h2>Validations Test</h2>
+    <form action="/Testing">
+        <label for="name">Enter Your Name: </label>
+        <input type="text" placeholder="name" name="name" id="name" required>
+        <br>
+        <label for="username">Enter a Username: </label>
+        <input type="username" placeholder="username" name="USM" id="username" minlength="5" maxlength="10" required>
+        <br>
+        <button>Submit</button>
+
+        <input type="email" name="" id="">
+        <input type="url" name="" id="">
+    </form>
+    <hr>
+    <h1>Marathon Registration</h1>
+    <form action="/cricket">
+        <label for="FM">Enter First Name: </label>
+        <input type="text" name="Name" id="FM">
+        <br>
+        <label for="LM">Enter Last Name: </label>
+        <input type="text" name="Sir-Name" id="LM">
+        <p>Select A Distance:</p>
+        <input type="radio" name="Distance" id="Fun Run" value="5K">
+        <label for="Fun Run">Fun Run</label>
+        <br>
+        <input type="radio" name="Distance" id="Half Marathon" required value="10K">
+        <label for="Half Marathon">Half Marathon</label>
+        <br>
+        <input type="radio" name="Distance" id="Full Marathon" value="20K">
+        <label for="Full Marathon">Full Marathon</label>
+        <br>
+        <label for="email">Enter Your Email: </label>
+        <input type="email" required id="email">
+        <label for="password">Enter a password: </label>
+        <input type="password" name="password" id="password" minlength="8" maxlength="20" required>
+        <br>
+        <label for="age">
+            Please Select Your Age Category
+        </label>
+        <select name="age" id="age" required>
+            <option value="Child">Below 18</option>
+            <option value="Young Man">18-30</option>
+            <option value="Middle Age">30-50</option>
+            <option value="Old Man">50+</option>
+        </select>
+        <br>
+        <button>Register</button>
+    </form>
+    
+</body>
+</html>
